@@ -10,10 +10,10 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
-  background: linear-gradient(to right, rgb(0, 208, 255)3%, rgb(255, 0, 225)10%);
+  /* background: linear-gradient(to right, rgb(0, 208, 255)3%, rgb(255, 0, 225)10%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .footer p {
