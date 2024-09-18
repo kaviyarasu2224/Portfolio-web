@@ -1,0 +1,42 @@
+.nav-logo {
+  font-size: 45px;
+  font-weight: bold;
+  background: linear-gradient(80deg, rgb(0, 242, 255) 6%, rgb(255, 1, 162));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.navbar{
+ 
+  background:  rgba(0, 0, 0, 0.426);;
+  width: 100%;
+  z-index: 5;
+}
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid rgb(247, 0, 255);
+  background: linear-gradient(to right, rgb(234, 0, 255), rgb(0, 102, 255));
+  border-radius: 5px;
+   border: 2px solid white;
+  color: white;
+}
+

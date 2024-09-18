@@ -1,0 +1,73 @@
+.header {
+  padding: 70px 0;
+  background: rgba(0, 0, 0, 0.767);
+}
+.header img {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid white;
+  background: linear-gradient(220deg, rgb(247, 0, 255), rgb(38, 0, 255));
+}
+
+.header h1 {
+  padding: 10px;
+  margin: 30px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+}
+.header-title{
+    margin-top: 20px;
+  background: linear-gradient(to right, rgb(234, 0, 255), rgb(0, 102, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header h1 span{
+  background: linear-gradient(to right, rgb(234, 0, 255), rgb(0, 102, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+   margin: 0 30px ;
+   margin-bottom: 55px;
+  
+}
+
+.header-connect {
+  border-radius: 60px;
+  padding: 10px;
+  border: 2px solid rgb(250, 248, 250);
+  background: linear-gradient(to right, rgb(234, 0, 255), rgb(0, 102, 255));
+}
+
+.header-resume {
+  border: 2px solid rgb(212, 0, 255);
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.header-resume:hover {
+  border: 2px solid rgb(250, 248, 250);
+  background: linear-gradient(to right, rgb(234, 0, 255), rgb(0, 102, 255));
+}
+
+.header-connect:hover {
+  background: transparent;
+  border: 2px solid rgb(212, 0, 255);
+}
+  @media (max-width: 768px){
+    .header img {
+    width: 80%;
+    max-width: 350px;  
+  }
+  }

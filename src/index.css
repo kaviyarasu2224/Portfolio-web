@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+ overflow-x: hidden;
+  color: #ffffff;
+  background: linear-gradient(
+      50deg,
+      rgba(247, 0, 255, 0.836),
+      rgba(9, 6, 187, 0.527),
+      rgba(255, 85, 0, 0.944)
+    );
+    /* url(../src/assets/kavi.png); */
+   background-size: cover;
+  background-position: center; 
+  }
+  
+html {
+  scroll-behavior: smooth;
+}
