@@ -32,7 +32,7 @@ const Header = () => {
             <Button
               className="btn btn-secondary header-resume"
               target="_blank"
-              href="https://drive.google.com/file/d/1Sdt6256SrnRqtaP-sDVPayHQ3odyAAdl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ti2n8QLwvQPDYYulBo3uMD_Sa9zVNNOo/view?usp=sharing"
             >
               Download Resume
             </Button>
